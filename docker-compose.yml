@@ -1,0 +1,10 @@
+version: '3'
+services:
+  python3:
+    restart: always
+    build: .
+    tty: true
+    volumes:
+      - .:/root/src
+    ports:
+      - "8006:80"
