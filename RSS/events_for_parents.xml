@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+	<channel>
+		<title>会津大学 イベント 保護者向け一覧</title>
+		<link>https://www.u-aizu.ac.jp/events/parents/</link>
+		<description>会津大学 イベント 保護者向け一覧</description>
+		<item>
+			<title>会津IT秋フォーラム2021の開催について</title>
+			<description>
+				日時 2021年10月29日（金） 10:00 〜 16:00
+				<br/>
+				会場 会津大学（オンライン開催）
+				<br/>
+				https://www.u-aizu.ac.jp/events/it2020.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>第３回会津大学ロボットシンポジウム</title>
+			<description>
+				日時 2018年03月23日（金） 10:00 〜 16:00
+				<br/>
+				会場 会津大学　研究棟１階アトリウム、先端ICTラボ（LICTiA）、ロボット格納庫
+				<br/>
+				https://www.u-aizu.ac.jp/events/post-145.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>会津IT秋フォーラム2017の開催について</title>
+			<description>
+				日時 2017年10月20日（金） 10:00 〜 19:00
+				<br/>
+				会場 会津大学（交流会のみ会津若松ワシントンホテル）
+				<br/>
+				http://www.u-aizu.ac.jp/events/it2017.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+	</channel>
+</rss>

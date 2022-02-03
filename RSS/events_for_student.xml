@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+	<channel>
+		<title>会津大学 イベント 在学生向け一覧</title>
+		<link>https://www.u-aizu.ac.jp/events/students/</link>
+		<description>会津大学 イベント 在学生向け一覧</description>
+		<item>
+			<title>会津IT秋フォーラム2021の開催について</title>
+			<description>
+				日時 2021年10月29日（金） 10:00 〜 16:00
+				<br/>
+				会場 会津大学（オンライン開催）
+				<br/>
+				https://www.u-aizu.ac.jp/events/it2020.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>ロボットシミュレータChoreonoid講習会</title>
+			<description>
+				日時 2021年02月19日（金） 10:00 〜 17:00
+				<br/>
+				会場 Zoomでのオンライン開催
+				<br/>
+				https://www.u-aizu.ac.jp/events/choreonoid.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>2nd International Conference on Educational Technology, Language &amp; Technical Communication (ETLTC2021) </title>
+			<description>
+				日時 2021年01月27日（水） 〜 2021年01月30日（土）
+				<br/>
+				会場 会津大学
+				<br/>
+				https://www.u-aizu.ac.jp/events/2nd-international-conference-on-educational-technology-language-technical-communication-etltc2021-10.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>コトバデザイン・ワークショップ「自分のオリジナルスマートスピーカーを作ってみよう！」</title>
+			<description>
+				日時 2020年01月15日（水） 〜 2020年01月22日（水）
+				<br/>
+				会場 1/15 中講義室M7　1/22　中講義室M5
+				<br/>
+				https://www.u-aizu.ac.jp/events/post-180.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>ETLTC2020 ACM International Conference on Educational Technology</title>
+			<description>
+				日時 2020年01月27日（月） 〜 2020年01月31日（金）
+				<br/>
+				会場 会津大学 産学イノベーションセンター (UBIC)&amp;iLab1,iLab2,CALL1,CALL2
+				<br/>
+				https://www.u-aizu.ac.jp/events/etltc2020-acm-international-conference-on-educational-technology.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>コンピュータサイエンスサマーキャンプ会津大学2019の学生スタッフ募集</title>
+			<description>
+				日時 2019年08月19日（月） 〜 2019年08月22日（木）
+				<br/>
+				会場 会津大学
+				<br/>
+				https://www.u-aizu.ac.jp/events/2019.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>TDK HACKATHON </title>
+			<description>
+				日時 2019年02月17日（日） 09:00 〜 2019年02月18日（月） 17:00
+				<br/>
+				会場 講義棟2F M6
+				<br/>
+				https://www.u-aizu.ac.jp/events/tdk-hackathon.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>福島県都市ボランティア募集説明会（第９回）</title>
+			<description>
+				日時 2019年01月30日（水） 13:00 〜 14:00
+				<br/>
+				会場 講義棟　大講義室
+				<br/>
+				https://www.u-aizu.ac.jp/events/post-160.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+	</channel>
+</rss>

@@ -3,8 +3,10 @@ from urllib import request
 from bs4 import BeautifulSoup
 import xml.dom.minidom
 
-def Get_RSS():
-    res = request.urlopen('https://www.u-aizu.ac.jp/events/students/')
+#会津大学 イベント 在学生向け一覧
+#https://www.u-aizu.ac.jp/events/students/
+def Get_RSS(url,title_data):
+    res = request.urlopen(url)
 
     soup = BeautifulSoup(res, 'html.parser')
 
@@ -22,11 +24,11 @@ def Get_RSS():
     #rss_version_attr.value = '2.0'
     #rss.setAttributeNode(rss_version_attr)
     title = rss_dom.createElement('title')
-    title.appendChild(rss_dom.createTextNode("会津大学 イベント 在学生向け一覧"))
+    title.appendChild(rss_dom.createTextNode(title_data))
     link = rss_dom.createElement('link')
-    link.appendChild(rss_dom.createTextNode("https://www.u-aizu.ac.jp/events/students/"))
+    link.appendChild(rss_dom.createTextNode(url))
     description = rss_dom.createElement('description')
-    description.appendChild(rss_dom.createTextNode("会津大学 イベント 在学生向け一覧のRSS"))
+    description.appendChild(rss_dom.createTextNode(title_data))
 
     channel.appendChild(title)
     channel.appendChild(link)
@@ -89,10 +91,29 @@ import time
 
 def search_RSS():
     while True:
-        with open("./RSS/For_student.xml","w",encoding="utf-8") as f:
-            f.write(Get_RSS())
+        with open("./RSS/events_for_student.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/students/","会津大学 イベント 在学生向け一覧"))
+        with open("./RSS/events_for_visitorst.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/visitors/","会津大学 イベント 一般向け一覧"))
+        with open("./RSS/events_for_parents.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/parents/","会津大学 イベント 保護者向け一覧"))
+        with open("./RSS/events_for_alumni.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/alumni/","会津大学 イベント 卒業生向け一覧"))
         print("クローリング...")
-        time.sleep(60*60)
+        time.sleep(30*60)
+
+        """
+        with open("./RSS/info_admissions.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/students/","会津大学 イベント 在学生向け一覧"))
+        with open("./RSS/events_for_visitorst.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/visitors/","会津大学 イベント 一般向け一覧"))
+        with open("./RSS/events_for_parents.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/parents/","会津大学 イベント 保護者向け一覧"))
+        with open("./RSS/events_for_alumni.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/alumni/","会津大学 イベント 卒業生向け一覧"))
+        print("クローリング...")
+        """
+        time.sleep(30*60)
 
 t1 = threading.Thread(target=search_RSS)
 t1.start()

@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+	<channel>
+		<title>会津大学 イベント 卒業生向け一覧</title>
+		<link>https://www.u-aizu.ac.jp/events/alumni/</link>
+		<description>会津大学 イベント 卒業生向け一覧</description>
+		<item>
+			<title>会津IT秋フォーラム2021の開催について</title>
+			<description>
+				日時 2021年10月29日（金） 10:00 〜 16:00
+				<br/>
+				会場 会津大学（オンライン開催）
+				<br/>
+				https://www.u-aizu.ac.jp/events/it2020.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>ロボットシミュレータChoreonoid講習会</title>
+			<description>
+				日時 2021年02月19日（金） 10:00 〜 17:00
+				<br/>
+				会場 Zoomでのオンライン開催
+				<br/>
+				https://www.u-aizu.ac.jp/events/choreonoid.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>2nd International Conference on Educational Technology, Language &amp; Technical Communication (ETLTC2021) </title>
+			<description>
+				日時 2021年01月27日（水） 〜 2021年01月30日（土）
+				<br/>
+				会場 会津大学
+				<br/>
+				https://www.u-aizu.ac.jp/events/2nd-international-conference-on-educational-technology-language-technical-communication-etltc2021-10.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>ETLTC2020 ACM International Conference on Educational Technology</title>
+			<description>
+				日時 2020年01月27日（月） 〜 2020年01月31日（金）
+				<br/>
+				会場 会津大学 産学イノベーションセンター (UBIC)&amp;iLab1,iLab2,CALL1,CALL2
+				<br/>
+				https://www.u-aizu.ac.jp/events/etltc2020-acm-international-conference-on-educational-technology.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>ACM CHAPTER RESEARCH SEMINAR ON TECHNICAL COMMUNICATION &amp; INFORMATION DESIGN 2019</title>
+			<description>
+				日時 2019年01月28日（月） 〜 2019年02月01日（金）
+				<br/>
+				会場 会津大学 産学イノベーションセンター (UBIC)&amp;ILAB1
+				<br/>
+				https://www.u-aizu.ac.jp/events/acm-chapter-research-seminar-on-technical-communication-information-design-2019.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>第３回会津大学ロボットシンポジウム</title>
+			<description>
+				日時 2018年03月23日（金） 10:00 〜 16:00
+				<br/>
+				会場 会津大学　研究棟１階アトリウム、先端ICTラボ（LICTiA）、ロボット格納庫
+				<br/>
+				https://www.u-aizu.ac.jp/events/post-145.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>ACM Chapter Conference on Fukushima Revitalization and Project-Based English Language Learning</title>
+			<description>
+				日時 2018年02月03日（土） 09:00 〜 17:00
+				<br/>
+				会場 会津大学先端ICTラボ（LICTiA）
+				<br/>
+				http://web-ext.u-aizu.ac.jp/labs/clr/pbll.html
+				<br/>
+			</description>
+			<pubDate></pubDate>
+		</item>
+	</channel>
+</rss>
