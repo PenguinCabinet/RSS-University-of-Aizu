@@ -100,20 +100,19 @@ def search_RSS():
         with open("./RSS/events_for_alumni.xml","w",encoding="utf-8") as f:
             f.write(Get_RSS("https://www.u-aizu.ac.jp/events/alumni/","会津大学 イベント 卒業生向け一覧"))
         print("クローリング...")
-        time.sleep(30*60)
+        time.sleep(1)
 
-        """
+        with open("./RSS/info_news.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/information/news/","会津大学 ニュース"))
         with open("./RSS/info_admissions.xml","w",encoding="utf-8") as f:
-            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/students/","会津大学 イベント 在学生向け一覧"))
-        with open("./RSS/events_for_visitorst.xml","w",encoding="utf-8") as f:
-            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/visitors/","会津大学 イベント 一般向け一覧"))
-        with open("./RSS/events_for_parents.xml","w",encoding="utf-8") as f:
-            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/parents/","会津大学 イベント 保護者向け一覧"))
-        with open("./RSS/events_for_alumni.xml","w",encoding="utf-8") as f:
-            f.write(Get_RSS("https://www.u-aizu.ac.jp/events/alumni/","会津大学 イベント 卒業生向け一覧"))
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/information/admissions/","会津大学 入試情報"))
+        with open("./RSS/info_uarc.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/information/uarc/","会津大学 復興支援センター情報"))
+        with open("./RSS/info_employment_faculty.xml","w",encoding="utf-8") as f:
+            f.write(Get_RSS("https://www.u-aizu.ac.jp/information/employment-faculty/","会津大学 教員採用情報一覧"))
+
         print("クローリング...")
-        """
-        time.sleep(30*60)
+        time.sleep(60*60)
 
 t1 = threading.Thread(target=search_RSS)
 t1.start()
