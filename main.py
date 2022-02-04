@@ -2,6 +2,7 @@ from unittest import expectedFailure
 from urllib import request
 from bs4 import BeautifulSoup
 import xml.dom.minidom
+import urllib
 
 #会津大学 イベント 在学生向け一覧
 #https://www.u-aizu.ac.jp/events/students/
@@ -78,6 +79,8 @@ def Get_RSS(url,title_data):
             
             channel.appendChild(item)
         except IndexError:
+            pass
+        except urllib.error.URLError:
             pass
 
 
